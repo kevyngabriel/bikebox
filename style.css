@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Teko:wght@300..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0%;
+  font-family: Inter, sans-serif;
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+ul {
+  list-style: none;
+}
+
+/*-------------------------------*/
+
+header {
+  background-color: black;
+  padding: 1rem 1rem;
+}
+
+span#logo-menu {
+  display: none;
+}
+
+span#logo {
+  font-family: teko;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+
+span#logo > a {
+  color: #e63907;
+  font-weight: 700;
+}
+
+span#logo > a:hover {
+  color: aliceblue;
+  transition: 0.6s;
+}
+
+span#logo > a:hover > span#text-box {
+  color: #e63907;
+  transition: 0.6s;
+}
+
+span#text-box {
+  color: white;
+}
+
+menu {
+  margin: 0 auto;
+  max-width: 1120px;
+  padding: 1rem 0em;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-menu {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  color: #fff2e780;
+}
