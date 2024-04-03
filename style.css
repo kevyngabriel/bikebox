@@ -128,3 +128,22 @@ button > a {
 button:hover > a {
   color: #e63907;
 }
+
+main > section {
+  background-image: url(images/background-bikebox04.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 85vh;
+}
+
+h1 {
+  font-family: teko;
+  font-size: 1.5rem;
+  color: #fff2e7;
+  text-transform: uppercase;
+  text-align: center;
+
+  height: 85vh;
+}
