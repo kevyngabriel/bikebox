@@ -130,12 +130,12 @@ button:hover > a {
 }
 
 main > section {
-  background-image: url(images/background-bikebox04.png);
+  background-image: url(images/1.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   width: 100%;
-  height: 85vh;
+  height: 90vh;
 }
 
 h1 {
